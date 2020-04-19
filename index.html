@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>電子レンジ</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+  <div class="form">
+    <div class="wrapper">
+      <div class="top"></div>
+    </div>
+    <div class="wrapper">
+      <div class="second row">
+        <div class="col-5 offset-1 window1"></div>
+        <div class="col-5  window2"></div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="third row">
+        <div class="col-10 offset-1 title">
+          <div class="sentence">
+            <h5>あたため</h5>
+            <p>4  のみもの(牛乳)<br>
+              5  のみもの(お酒)<br>
+              6  ゆで野菜(葉菜)
+            </p>
+          </div>
+          <div class="sentence">
+            <p>7  ゆで野菜(根菜)<br>
+              8  半解凍<br>
+              9  スチーム全解凍<br>
+              10 さしみ
+            </p>
+          </div>
+          <div class="sentence">
+            <p>11 スチームあたため<br>
+              12 カラッとあたため<br>
+              13 ふっくらパン<br>
+              14 本格中華まん蒸し
+            </p>
+          </div>
+          <div class="sentence">
+            <h5>お惣菜</h5>
+            <p>15 焼きそば<br>
+              16 グラタン<br>
+              17 ステーキ
+            </p>
+          </div>
+          <div class="sentence">
+            <p>18 ローストチキン<br>
+              19 焼き魚(切り身)<br>
+              20 焼き魚(丸身)<br>
+              21 干物
+            </p>
+          </div>
+          <div class="sentence">
+            <p>22 ローカロリーフライ<br>
+              23 茶わん蒸し<br>
+              24 赤飯・おこわ<br>
+              25 手作りシューマイ
+            </p>
+          </div>
+          <div class="sentence">
+            <p>26 野菜スープ<br>
+              27 カレー・シチュー<br>
+              28 肉じゃが
+            </p>
+          </div>
+          <div class="sentence">
+            <h5>選べる焼き上げ</h5>
+            <p>29 ハンバーグ<br>
+              30 鶏の照り焼き<br>
+              31 鶏のから揚げ
+            </p>
+          </div>
+          <div class="sentence">
+            <h5>スピ―ドメニュー</h5>
+            <p>32 3分メニュー<br>
+              33 5分メニュー<br>
+              34 8分メニュー
+            </p>
+          </div>
+          <div class="sentence">
+            <h5>パン・ピザ・スイーツ</h5>
+            <p>35 フランスパン<br>
+              36 メロンパン<br>
+              37 ベーグル
+            </p>
+          </div>
+          <div class="sentence">
+            <p>38 バターロール<br>
+              39 楽々ベーカリー<br>
+              40 ピザ<br>
+              41 クッキー
+            </p>
+          </div>
+          <div class="sentence">
+            <p>42 シュークリーム<br>
+              43 スポンジケーキ<br>
+              44 焼きいも<br>
+              45 なめらかプリン
+            </p>
+          </div>
+          <div class="sentence">
+            <h5>お手入れ</h5>
+            <p>46 手間なしお手入れ<br>
+              47 パイプの水抜き<br>
+              48 脱臭
+            </p>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <div class="wrapper">
+      <div class="fourth row">
+        <div class="col-10 offset-1 function">
+          <div class="row text-center fourth-row">
+            <div class="col-1">
+              <div class="company">
+                <h1>TOSHIBA</h1>
+                <h2>ER-JD410A</h2>              
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="display">
+                <div class="disp-left1">
+                  <div class="syudo"><p>手動</p></div>
+                  <div class="yonetsu"><p>予熱</p></div>
+                  <div class="ondo"><p>仕上がり</p></div>
+                  <div class="level"><p>標準</p></div>
+                  <div class="menu"><p>自動メニュー</p></div>
+                </div>
+                <div class="row disp-left2">
+                  <div class="col-4"><p class="scene">加熱水蒸気</p></div>
+                  <div class="col-3"><p class="number1">1000</p></div>
+                  <div class="col-1"><p class="tani">W</p></div>
+                  <div class="col-1"><p class="number2">19</p></div>
+                  <div class="col-1"><p class="fun">分</p></div>
+                  <div class="col-1"><p class="number3">19</p></div>
+                  <div class="col-1"><p class="byou">秒</p></div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="disp-right">
+                <div><p>ラップ不要</p></div>
+                <div><p>給水</p></div>
+                <div><p>金属 ×</p></div>
+              </div>
+            </div>
+            <div class="col-2 dial1">
+              <div>
+                <h2>メニュー(11～48)温度・湿度</h2>
+                <button id="done">決定</button>
+              </div>
+  
+            </div>
+            <div class="col-2 dial2">
+              <div>
+                <h2>1 ごはん2 おかず 3二品</h2>
+                <button id="start">あたため<br>スタート</button>
+              </div>
+  
+            </div>
+            <div class="col-1 dial3">
+              <div>
+                <button id="reset">とりけし</button>
+              </div>
+            </div>
+            <div class="col-1 spare">
+              <div class="seal">
+                <h4>のみものなどは、加熱後に突然沸騰し、やけどの恐れがあります。加熱しすぎにご注意ください。また取り出すときにもご注意ください。</h4>
+              </div>
+            </div>
+          </div>
+        </div>     
+      </div>
+    </div>
+    <div class="wrapper fifth">
+      <div class="buttons text-center">
+        <div class="btn-left">
+          <button id="btn1">のみもの<br></button>
+          <button id="btn2">ゆで野菜</button>
+          <button id="btn3">生解凍</button>
+        </div>
+        <div class="btn-right">
+          <button id="btn4"><div class="btn_innner">レンジ<br>お好み温度</div></button>
+          <button id="btn5"><div class="btn_innner">オーブン<br>発酵・グリル</div></button>
+          <button id="btn6"><div class="btn_innner">スチーム<br>加熱水蒸気</div></button>  
+        </div>
+      </div>
+    </div>
+  </div>
+ </body>
+</html>
